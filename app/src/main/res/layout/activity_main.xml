@@ -37,18 +37,17 @@
         android:textColor="#651FFF"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/FirstNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/FirstNumberDescription"
-        android:inputType="numberDecimal"
-        android:minHeight="40dp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck"
-        android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/FirstNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FirstNumberDescription"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/SecondNumberDescription"
@@ -64,18 +63,17 @@
         android:textColor="#651FFF"
         android:textSize="20sp" />
 
-    <EditText
-        android:id="@+id/SecondNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/SecondNumberDescription"
-        android:inputType="numberDecimal"
-        android:minHeight="40dp"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        android:textColorHint="@color/black"
-        tools:ignore="LabelFor,SpeakableTextPresentCheck"
-        android:importantForAutofill="no" />
+        <EditText
+            android:id="@+id/SecondNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SecondNumberDescription"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:minHeight="40dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            tools:ignore="LabelFor,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <TextView
         android:id="@+id/Result"
